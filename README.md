@@ -62,7 +62,7 @@ The API will be available on http://localhost:8088.
 4. Update Cloud Vendor
    - Method: PUT
    - URL: ```/cloudvendor```
-   - Example : ```curl -X PUT http://localhost:8088/cloudvendor \                                                          
+   - Example : ```curl -X PUT http://localhost:8088/cloudvendor \                                        
        -H 'Content-Type: application/json' \                                                                             
        -d '{"vendorId": "C1", "vendorName": "Updated Vendor", "vendorAddress": "Updated Address", "vendorPhoneNumber": "9876543210"}'```
 
