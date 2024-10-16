@@ -56,7 +56,7 @@ The API will be available on http://localhost:8088.
    - Method: POST
    - URL: ```/cloudvendor```
    - Example : ```curl -X POST http://localhost:8088/cloudvendor \                                  
-       -H 'Content-Type: application/json' \                                                     
+       -H 'Content-Type: application/json' \                                                      
        -d '{"vendorId": "C1", "vendorName": "Vendor 1", "vendorAddress": "Address One", "vendorPhoneNumber": "1231231231"}'```
 
 4. Update Cloud Vendor
